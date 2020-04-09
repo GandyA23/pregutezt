@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8" /> 
+
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		
 		<title>PREGUTEZT</title>
 
 		<style type="text/css">
-			body{
+			html, body{
 				/*La imagen xd*/
 				background-image: url("images/fondo.png");
 
@@ -21,21 +23,32 @@
 
 				/* Se muestra un color de fondo mientras se está cargando la imagende fondo o si hay problemas para cargarla */
 				background-color: #66999;
+
 			}
 
-			table{
-				background-color: #606060;
-			}
+			*{margin:0;padding:0;box-sizing:border-box;font-size:0;} 
+            
+            nav{
+            	background-color: #606060 ;
+            }
 
-			td .logo{
-				text-align: left;
-			}
 
-			td .user{
-				text-align: right;
-				width: 5%;
-			}
+            nav table{
+            	width: 100% ;
+            }
+
+            nav td{
+            	width: auto ;
+            	margin: 15px ;
+            	padding: 15px ;
+            }
+
+		    img{
+		    	height: auto;
+		    	margin: 15px ;
+		    }
 
 		</style>
 	</head>
+
 	<body>
