@@ -1,8 +1,8 @@
-<nav>
-	<table width="100%" >
+<nav id="topnav">
+	<table>
 		<tr>
 			<td rowspan="2">
-				<a href="#">
+				<a href="index.php">
 					<img width="11%" src="images/logo.png">
 				</a>
 			</td>
@@ -12,6 +12,5 @@
 				<img width="15%" src="images/text.png">
 			</td>
 		</tr>
-		
 	</table>
 </nav>
