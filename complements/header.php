@@ -61,6 +61,10 @@
 	  				font-size-adjust: auto;
 			}
 
+			#color-white{
+				color: white ;
+			}
+
 			#topnav{
 				height: auto; ;
 				width: 100% ;

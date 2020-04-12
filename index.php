@@ -5,7 +5,7 @@
 <div id="container">
 	
 	
-	<h1> Welcome <br> ¡DIVIERTETE! </h1>	
+	<h1 id="color-white"> Welcome <br> ¡DIVIERTETE! </h1>	
 	
 
 </div>
