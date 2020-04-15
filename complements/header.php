@@ -10,10 +10,12 @@
 		<style type="text/css">
 			
 			*{
+				font-family: BalooBhai2;
 				margin: 0;
 				padding: 0;
 				box-sizing: border-box;
 				font-size:0;
+				line-height: 120% ;
 			} 
 
 			html{
@@ -37,7 +39,7 @@
 				/* Se muestra un color de fondo mientras se está cargando la imagende fondo o si hay problemas para cargarla */
 				background-color: #66999;
 
-				height: 100%
+				height: 100% ;
 			}
 
 			/*Hago referencia a mi fuente descargada para usarla en la pagina y asi poder usarla en otras etiquetas*/
@@ -48,53 +50,19 @@
 
 			/*Me ayudara a escalar la fuente dependiendo el tamaño de la pantalla */
 			@media (min-width: 200rem) {
-			  	h1{
-					font-family: BalooBhai2;
-					font-size: 2rem;
+			  	*{
 	  				font-size-adjust: auto;
 				}
 			}
 
 			h1{
-					font-family: BalooBhai2;
 					font-size: 5rem;
 	  				font-size-adjust: auto;
-			}
-
-			#color-white{
-				color: white ;
-			}
-
-			#topnav{
-				height: auto; ;
-				width: 100% ;
-				display: flex;
-			}
-
-			#container{
-				text-align: center;
-				align-items: center;
-				justify-content: center ;
-
-				display: flex;
-				
-				width: 100% ;
-				height: 100% ;
-			}
-
-			#container-middle{
-				position: relative;
-			}
-
-			#element-middle{
-				position: absolute;
-				top: 50%;
-				transform: translateY(-50%);
+	  				color: white ;
 			}
 
 			/*Submenu en el cuadrito*/
 			nav a{
-				font-family: BalooBhai2;
 				text-decoration:none;
 				color:inherit;
 				font-size: 0.5rem;
@@ -126,7 +94,10 @@
 				position:absolute;
 				margin: 3px ;
 			}
+
+			/*Fin menu cuadrito*/
             
+            /*Topnav*/
             nav{
             	background-color: #606060 ;
             }
@@ -146,6 +117,85 @@
 		    	height: auto;
 		    }
 
+		    input::placeholder {
+				color: black ;	
+			}
+
+		    input[type=text], [type=password] {
+		    	margin: 20px;
+	    		font-size: 2rem;
+	    		text-align: center;
+				box-sizing: border-box;
+			}
+
+			input[type="checkbox"] {
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				appearance: none;
+
+				/* Styling checkbox */
+				width: 60px;
+				height: 60px;
+
+				border: 8px solid;
+			}
+
+			input[type="checkbox"]:checked {
+				background: green ;
+			}
+
+			a:link {
+				text-decoration: none;
+			}
+
+			a:visited {
+				text-decoration: none;
+			}
+
+		    /*Ids complementarios*/
+			#topnav{
+				height: auto; ;
+				width: 100% ;
+				display: flex;
+			}
+
+			#container{
+				margin: 10px ;
+				text-align: center;
+				align-items: top;
+				justify-content: center ;
+
+				display: flex;
+				
+				width: 100% ;
+				height: 100% ;
+			}
+
+			#label-boton{
+				display: inline;
+				font-size: 2rem ;
+				color: white ;
+				align-items: center;
+				align-content: center;
+				text-align: center;
+				justify-content: center; ;
+
+				display: flex;
+			}
+
+			#label-boton-register{
+				border: 4px solid;
+			}
+
+			#container-middle{
+				position: relative;
+			}
+
+			#element-middle{
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+			}
 		</style>
 	</head>
 
