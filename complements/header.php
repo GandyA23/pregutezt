@@ -80,7 +80,17 @@
 				
 				width: 100% ;
 				height: 100% ;
-			}			
+			}
+
+			#container-middle{
+			  position: relative;
+			}
+
+			#element-middle{
+			  position: absolute;
+			  top: 50%;
+			  transform: translateY(-50%);
+			}		
             
             nav{
             	background-color: #606060 ;
@@ -99,7 +109,6 @@
 
 		    img{
 		    	height: auto;
-		    	margin: 15px ;
 		    }
 
 		</style>
