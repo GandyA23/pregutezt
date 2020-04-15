@@ -15,13 +15,26 @@
 						</td>
 
 						<td id="element-valign">
-							<ul>
+
+							<header>
+								<nav>
+									<ul id="menu">
+										<li> <img width="95%" src="images/cuadrito.png">
+											<ul>
+												<li id="element-valign"> <a href="login.php"> Iniciar Sesión </a> </li>
+											</ul>  
+										</li>
+									</ul>
+								</nav>
+							</header>
+
+							<!--ul>
 								<li> <img width="110%" src="images/cuadrito.png"> </li>
 
 								<ul>
 									<li>Iniciar Sesión</li>
 								</ul>
-							</ul>
+							</ul-->
 						</td>
 					</tr>
 				</table>

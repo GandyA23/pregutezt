@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" /> 
 
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel=“shortcut icon” type=“image/x-icon” href="/favicon.ico">
 		
 		<title>PREGUTEZT</title>
 
@@ -83,14 +83,49 @@
 			}
 
 			#container-middle{
-			  position: relative;
+				position: relative;
 			}
 
 			#element-middle{
-			  position: absolute;
-			  top: 50%;
-			  transform: translateY(-50%);
-			}		
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+
+			/*Submenu en el cuadrito*/
+			nav a{
+				font-family: BalooBhai2;
+				text-decoration:none;
+				color:inherit;
+				font-size: 0.5rem;
+  				font-size-adjust: auto;
+
+  				width: auto ;
+  				height: auto ;
+	      	}
+			            
+			nav li{
+  				width: auto ;
+  				height: auto ;
+				display:inline-block;
+				text-align:center;
+				position:relative;
+			}
+			            
+			nav li:hover{
+				color:#000;
+	      	}
+			            
+			nav li>ul{
+		    	display:none;
+		    }
+
+			nav li:hover>ul{
+				background-color: #fff ;
+				display:block;
+				position:absolute;
+				margin: 3px ;
+			}
             
             nav{
             	background-color: #606060 ;
