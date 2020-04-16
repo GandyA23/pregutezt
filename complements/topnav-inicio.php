@@ -3,38 +3,39 @@
 		<tr>
 			<td rowspan="2">
 				<a href="index.php">
-					<img width="17%" src="images/logo.png">
+					<img width="16%" src="images/logo.png">
 				</a>
 			</td>
 
-			<td id="container-middle" rowspan="2">
+			<td rowspan="2" align="right">
 				<table>
-					<tr>
-						<td>
-							<header>
-								<nav>
-									<ul>
-										<li id="user"> <img width="20%" src="images/user.png"> </li>
-									</ul>
-								</nav>
-							</header>		
-						</td>
-
-						<td>
-							<header>
-								<nav>
-									<ul>
-										<li id="cuadrito"> <img width="95%" src="images/cuadrito.png">
-											<ul>
-												<li> <a href="login.php"> Iniciar Sesión </a> </li>
-											</ul>  
-										</li>
-									</ul>
-								</nav>
-							</header>
-						</td>
+					<tr align="center">
+						<td colspan="2"> <img src="images/heart3.png" > </td>
+						<td colspan="2"> <img src="images/heart3.png" > </td>
+						<td colspan="2"> <img src="images/heart3.png" > </td>
 					</tr>
-				</table>
+
+					<tr align="center">
+						<td colspan="3"> <img src="images/sound.png" width="70%"> </td>
+						<td colspan="3"> <img src="images/music.png" width="70%"> </td>
+					</tr>
+				</table>					
+			</td>
+
+			<td rowspan="2" align="right" width="7%">
+				<img src="images/user.png" width="90%">
+			</td>
+
+			<td rowspan="2" width="8%">
+				<nav>
+					<ul>
+						<li> <img width="90%" src="images/cuadrito.png">
+							<ul>
+								<li> <a href="login.php"> Iniciar Sesión </a> </li>
+							</ul>  
+						</li>
+					</ul>
+				</nav>
 			</td>
 		</tr>
 	</table>

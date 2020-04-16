@@ -49,6 +49,16 @@
 				}
 			}
 
+			h3{
+				font-size: 1.5rem; 
+				color: white ;
+			}
+
+			h2{
+				font-size: 3rem ;
+				color: white ;
+			}
+
 			h1{
 					font-size: 5rem;
 	  				color: white ;
@@ -65,15 +75,7 @@
 				display:inline-block;
 				position:relative;
 			}
-
-			#user{
-				text-align: right;
-			}
-
-			#cuadrito{
-				text-align: center;
-			}
-			            
+         
 			nav li:hover{
 				color:#000;
 	      	}
@@ -98,18 +100,14 @@
             	padding: 0 ;
             }
 
-
             nav table{
             	width: 100% ;
-            	margin:0 ;
-            	padding: 0 ;
+            	display: inline-block;
             }
 
             nav td{
-            	width: auto;
-            	height: auto;
-            	margin: 9px ;
-            	padding: 9px ;
+            	margin: 8px ;
+            	padding: 8px ;
             }
 
 		    img{
@@ -139,7 +137,21 @@
 				border: 8px solid;
 			}
 
-			input[type="checkbox"]:checked {
+			input[type="radio"] {
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				appearance: none;
+
+				/* Styling checkbox */
+				width: 40px;
+				height: 40px;
+
+				margin: 5px ;
+				background-color: white ; 
+				border-radius: 1rem ;
+			}
+
+			input[type="checkbox"]:checked, [type="radio"]:checked{
 				background: green ;
 			}
 
@@ -152,6 +164,7 @@
 			}
 
 		    /*Ids complementarios*/
+			   
 			#topnav{
 				height: auto;
 				width: 100% ;
@@ -161,8 +174,9 @@
 			#container{
 				margin: 5% ;
 				text-align: center;
-				align-items: top;
-				justify-content: center ;
+				align-items: center;
+				justify-content: center;
+				align-content: center;
 
 				display: flex;
 				
@@ -182,12 +196,34 @@
 				display: flex;
 			}
 
+			#label-radio{
+				display: inline;
+				font-size: 1rem ;
+				color: white ;
+				align-items: left;
+				align-content: left;
+				text-align: left;
+				justify-content: left;
+
+				display: flex;
+			}
+
 			#label-boton-register{
 				border: 4px solid;
 			}
 
-			#container-middle{
-				position: relative;
+			#label-evaluation{
+				font-size: 1.5rem ;
+				color: white ;
+				line-height: 50px ;
+			}
+
+			#border-corner {
+				align-items: center;
+				align-content: center;
+			    border-radius: 5rem; 
+			    width: auto;
+			    height: auto;    
 			}
 
 		</style>
