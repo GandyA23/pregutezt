@@ -72,6 +72,7 @@
 	      	}
 			            
 			nav li {
+				text-align: center;
 				display:inline-block;
 				position:relative;
 			}
@@ -85,6 +86,7 @@
 		    }
 
 			nav li:hover>ul{
+				text-align: center;
 				background-color: #fff ;
 				display:flex;
 				position: absolute;
@@ -181,7 +183,6 @@
 				display: flex;
 				
 				width: 90% ;
-				height: 90% ;
 			}
 
 			#label-boton{
