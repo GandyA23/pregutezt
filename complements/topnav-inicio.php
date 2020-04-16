@@ -23,7 +23,7 @@
 			</td>
 
 			<td rowspan="2" align="right" width="7%">
-				<img src="images/user.png" width="90%">
+				<a href="user.php"> <img src="images/user.png" width="90%"> </a> 
 			</td>
 
 			<td rowspan="2" width="8%">
@@ -31,7 +31,7 @@
 					<ul>
 						<li> <img width="90%" src="images/cuadrito.png">
 							<ul>
-								<li> <a href="login.php"> Iniciar Sesión </a> </li>
+								<li> <a href="login.php"> Cerrar Sesión </a> </li>
 							</ul>  
 						</li>
 					</ul>

@@ -59,7 +59,7 @@
 
 		<tr>
 			<td>
-				<a href="user.php">
+				<a href="inicio-user.php">
 					<input style="margin: 0" readonly type="text" size="8" name="save" value="Guardar" >	
 				</a>
 			</td>
